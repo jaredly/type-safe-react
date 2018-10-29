@@ -578,18 +578,18 @@
       "children": [
         {
           "_id": null,
+          "_rev": null,
+          "children": [],
+          "completed": null,
+          "content": "!a Reason is a new syntax & toolchain for OCaml",
           "created": 1522246813200,
           "modified": 1522246822072,
-          "completed": null,
           "parent": null,
-          "trashed": null,
-          "children": [],
-          "type": "normal",
-          "content": "!a Reason is a new syntax & toolchain for OCaml",
           "plugins": {},
+          "trashed": null,
+          "type": "normal",
           "types": {},
-          "views": {},
-          "_rev": null
+          "views": {}
         },
         {
           "_id": null,
@@ -837,6 +837,21 @@
           "type": "normal",
           "types": {},
           "views": {}
+        },
+        {
+          "_id": null,
+          "created": 1540820832412,
+          "modified": 1540823873912,
+          "completed": null,
+          "parent": null,
+          "trashed": null,
+          "children": [],
+          "type": "header",
+          "content": "TODO TODO just point people at the lightning talk from today",
+          "plugins": {},
+          "types": {},
+          "views": {},
+          "_rev": null
         },
         {
           "_id": null,
@@ -1443,34 +1458,34 @@
             },
             {
               "_id": null,
-              "created": 1522246204331,
-              "modified": 1522246205315,
-              "completed": null,
-              "parent": null,
-              "trashed": null,
+              "_rev": null,
               "children": [
                 {
                   "_id": null,
+                  "_rev": null,
+                  "children": [],
+                  "completed": null,
+                  "content": "{img} boat-4.png {\"max-width\": \"100%\"}",
                   "created": 1522246205304,
                   "modified": 1522246215360,
-                  "completed": null,
                   "parent": null,
-                  "trashed": null,
-                  "children": [],
-                  "type": "normal",
-                  "content": "{img} boat-4.png {\"max-width\": \"100%\"}",
                   "plugins": {},
+                  "trashed": null,
+                  "type": "normal",
                   "types": {},
-                  "views": {},
-                  "_rev": null
+                  "views": {}
                 }
               ],
-              "type": "header",
+              "completed": null,
               "content": "_",
+              "created": 1522246204331,
+              "modified": 1522246205315,
+              "parent": null,
               "plugins": {},
+              "trashed": null,
+              "type": "header",
               "types": {},
-              "views": {},
-              "_rev": null
+              "views": {}
             },
             {
               "_id": null,
@@ -1814,18 +1829,18 @@
               "children": [
                 {
                   "_id": null,
+                  "_rev": null,
+                  "children": [],
+                  "completed": null,
+                  "content": "TypeScript and Flow don't have nearly the safety guarantees, but they're much better than plain JavaScript.",
                   "created": 1522246618710,
                   "modified": 1522246643954,
-                  "completed": null,
                   "parent": null,
-                  "trashed": null,
-                  "children": [],
-                  "type": "normal",
-                  "content": "TypeScript and Flow don't have nearly the safety guarantees, but they're much better than plain JavaScript.",
                   "plugins": {},
+                  "trashed": null,
+                  "type": "normal",
                   "types": {},
-                  "views": {},
-                  "_rev": null
+                  "views": {}
                 },
                 {
                   "_id": null,
@@ -2328,18 +2343,18 @@
                 },
                 {
                   "_id": null,
+                  "_rev": null,
+                  "children": [],
+                  "completed": null,
+                  "content": "Change is hard",
                   "created": 1522246763916,
                   "modified": 1522246768179,
-                  "completed": null,
                   "parent": null,
-                  "trashed": null,
-                  "children": [],
-                  "type": "normal",
-                  "content": "Change is hard",
                   "plugins": {},
+                  "trashed": null,
+                  "type": "normal",
                   "types": {},
-                  "views": {},
-                  "_rev": null
+                  "views": {}
                 }
               ],
               "completed": null,
@@ -2374,18 +2389,18 @@
                 },
                 {
                   "_id": null,
+                  "_rev": null,
+                  "children": [],
+                  "completed": null,
+                  "content": "Be aware of the cost of change",
                   "created": 1522246771195,
                   "modified": 1522246782152,
-                  "completed": null,
                   "parent": null,
-                  "trashed": null,
-                  "children": [],
-                  "type": "normal",
-                  "content": "Be aware of the cost of change",
                   "plugins": {},
+                  "trashed": null,
+                  "type": "normal",
                   "types": {},
-                  "views": {},
-                  "_rev": null
+                  "views": {}
                 }
               ],
               "completed": null,
@@ -2419,7 +2434,7 @@
       "completed": null,
       "content": "Why Reason?",
       "created": 1521124936249,
-      "modified": 1521674238645,
+      "modified": 1540820832413,
       "parent": null,
       "plugins": {},
       "trashed": null,
@@ -2624,96 +2639,34 @@
           "children": [
             {
               "_id": null,
-              "created": 1522247135487,
-              "modified": 1522247183228,
-              "completed": null,
-              "parent": null,
-              "trashed": null,
+              "_rev": null,
               "children": [
                 {
                   "_id": null,
+                  "_rev": null,
+                  "children": [],
+                  "completed": null,
+                  "content": "```\nlet x = 10; /* int */\nlet y = Some(20.); /* option(float) */\nlet z: string = \"hello\"; /* string */\nlet names = [\"me\", \"you\", \"them\"]; /* list(string) */\n```",
                   "created": 1522247140263,
                   "modified": 1522247243575,
-                  "completed": null,
                   "parent": null,
-                  "trashed": null,
-                  "children": [],
-                  "type": "normal",
-                  "content": "```\nlet x = 10; /* int */\nlet y = Some(20.); /* option(float) */\nlet z: string = \"hello\"; /* string */\nlet names = [\"me\", \"you\", \"them\"]; /* list(string) */\n```",
                   "plugins": {},
+                  "trashed": null,
+                  "type": "normal",
                   "types": {},
-                  "views": {},
-                  "_rev": null
+                  "views": {}
                 }
               ],
-              "type": "header",
+              "completed": null,
               "content": "Basic types",
-              "plugins": {},
-              "types": {},
-              "views": {},
-              "_rev": null
-            },
-            {
-              "_id": null,
-              "created": 1522247182516,
-              "modified": 1522247206830,
-              "completed": null,
+              "created": 1522247135487,
+              "modified": 1522247183228,
               "parent": null,
-              "trashed": null,
-              "children": [
-                {
-                  "_id": null,
-                  "created": 1522246864065,
-                  "modified": 1522248331212,
-                  "completed": null,
-                  "parent": null,
-                  "trashed": null,
-                  "children": [],
-                  "type": "normal",
-                  "content": "```\ntype person = {\n  name: string,\n  age: int,\n  parties: list(string),\n};\n\nlet value = {\n  name: \"React\", \n  age: 10, \n  parties: [\"this one\"]\n};\n```",
-                  "plugins": {},
-                  "types": {},
-                  "views": {},
-                  "_rev": null
-                }
-              ],
-              "type": "header",
-              "content": "{4} Records",
               "plugins": {},
-              "types": {},
-              "views": {},
-              "_rev": null
-            },
-            {
-              "_id": null,
-              "created": 1522247194259,
-              "modified": 1522247211173,
-              "completed": null,
-              "parent": null,
               "trashed": null,
-              "children": [
-                {
-                  "_id": null,
-                  "created": 1522247191556,
-                  "modified": 1522247216958,
-                  "completed": null,
-                  "parent": null,
-                  "trashed": null,
-                  "children": [],
-                  "type": "normal",
-                  "content": "```\ntype loadingPerson =\n  | Loading\n  | Failed(string)\n  | Succeeded(person);\n\nswitch someLoadingPerson {\n  | Loading => Js.log(\"still loading\")\n  | Failed(message) => Js.log(message)\n  | Succeeded(person) => Js.log(person.name)\n};\n```",
-                  "plugins": {},
-                  "types": {},
-                  "views": {},
-                  "_rev": null
-                }
-              ],
               "type": "header",
-              "content": "{4} Sum types",
-              "plugins": {},
               "types": {},
-              "views": {},
-              "_rev": null
+              "views": {}
             },
             {
               "_id": null,
@@ -2721,18 +2674,80 @@
               "children": [
                 {
                   "_id": null,
+                  "_rev": null,
+                  "children": [],
+                  "completed": null,
+                  "content": "```\ntype person = {\n  name: string,\n  age: int,\n  parties: list(string),\n};\n\nlet value = {\n  name: \"React\", \n  age: 10, \n  parties: [\"this one\"]\n};\n```",
+                  "created": 1522246864065,
+                  "modified": 1522248331212,
+                  "parent": null,
+                  "plugins": {},
+                  "trashed": null,
+                  "type": "normal",
+                  "types": {},
+                  "views": {}
+                }
+              ],
+              "completed": null,
+              "content": "{4} Records",
+              "created": 1522247182516,
+              "modified": 1522247206830,
+              "parent": null,
+              "plugins": {},
+              "trashed": null,
+              "type": "header",
+              "types": {},
+              "views": {}
+            },
+            {
+              "_id": null,
+              "_rev": null,
+              "children": [
+                {
+                  "_id": null,
+                  "_rev": null,
+                  "children": [],
+                  "completed": null,
+                  "content": "```\ntype loadingPerson =\n  | Loading\n  | Failed(string)\n  | Succeeded(person);\n\nswitch someLoadingPerson {\n  | Loading => Js.log(\"still loading\")\n  | Failed(message) => Js.log(message)\n  | Succeeded(person) => Js.log(person.name)\n};\n```",
+                  "created": 1522247191556,
+                  "modified": 1522247216958,
+                  "parent": null,
+                  "plugins": {},
+                  "trashed": null,
+                  "type": "normal",
+                  "types": {},
+                  "views": {}
+                }
+              ],
+              "completed": null,
+              "content": "{4} Sum types",
+              "created": 1522247194259,
+              "modified": 1522247211173,
+              "parent": null,
+              "plugins": {},
+              "trashed": null,
+              "type": "header",
+              "types": {},
+              "views": {}
+            },
+            {
+              "_id": null,
+              "_rev": null,
+              "children": [
+                {
+                  "_id": null,
+                  "_rev": null,
+                  "children": [],
+                  "completed": null,
+                  "content": "I should mention that OCaml has very good type inference -- I write very few type annotations when using reason.",
                   "created": 1522246887468,
                   "modified": 1522246922021,
-                  "completed": null,
                   "parent": null,
-                  "trashed": null,
-                  "children": [],
-                  "type": "normal",
-                  "content": "I should mention that OCaml has very good type inference -- I write very few type annotations when using reason.",
                   "plugins": {},
+                  "trashed": null,
+                  "type": "normal",
                   "types": {},
-                  "views": {},
-                  "_rev": null
+                  "views": {}
                 }
               ],
               "completed": null,
@@ -3605,6 +3620,159 @@
         },
         {
           "_id": null,
+          "created": 1540828681953,
+          "modified": 1540829268441,
+          "completed": null,
+          "parent": null,
+          "trashed": null,
+          "children": [
+            {
+              "_id": null,
+              "created": 1540828700754,
+              "modified": 1540829247437,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [],
+              "type": "normal",
+              "content": "sketch.sh",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            },
+            {
+              "_id": null,
+              "created": 1540829155679,
+              "modified": 1540829247437,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [],
+              "type": "normal",
+              "content": "{img} sketchsh.png",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            }
+          ],
+          "type": "header",
+          "content": "{4} Reason: it's on the internet",
+          "plugins": {},
+          "types": {},
+          "views": {},
+          "_rev": null
+        },
+        {
+          "_id": null,
+          "created": 1540828681953,
+          "modified": 1540829270392,
+          "completed": null,
+          "parent": null,
+          "trashed": null,
+          "children": [
+            {
+              "_id": null,
+              "created": 1540828704027,
+              "modified": 1540829246794,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [],
+              "type": "normal",
+              "content": "repl.it",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            },
+            {
+              "_id": null,
+              "created": 1540829163282,
+              "modified": 1540829246794,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [],
+              "type": "normal",
+              "content": "{img} replit.png",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            }
+          ],
+          "type": "header",
+          "content": "{4} Reason: it's on the internet",
+          "plugins": {},
+          "types": {},
+          "views": {},
+          "_rev": null
+        },
+        {
+          "_id": null,
+          "created": 1540828681953,
+          "modified": 1540829272862,
+          "completed": null,
+          "parent": null,
+          "trashed": null,
+          "children": [
+            {
+              "_id": null,
+              "created": 1540828707582,
+              "modified": 1540828711139,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [],
+              "type": "normal",
+              "content": "codesandbox.io",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            },
+            {
+              "_id": null,
+              "created": 1540829167477,
+              "modified": 1540829172264,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [],
+              "type": "normal",
+              "content": "{img} codesandboxio.png",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            }
+          ],
+          "type": "header",
+          "content": "{4} Reason: it's on the internet",
+          "plugins": {},
+          "types": {},
+          "views": {},
+          "_rev": null
+        },
+        {
+          "_id": null,
+          "created": 1540828714271,
+          "modified": 1540828790884,
+          "completed": null,
+          "parent": null,
+          "trashed": null,
+          "children": [],
+          "type": "header",
+          "content": "{2} Reason: on your very own computer",
+          "plugins": {},
+          "types": {},
+          "views": {},
+          "_rev": null
+        },
+        {
+          "_id": null,
           "_rev": null,
           "children": [
             {
@@ -3779,18 +3947,18 @@
             },
             {
               "_id": null,
+              "_rev": null,
+              "children": [],
+              "completed": null,
+              "content": "Also, some people are working on a tool that will generate flow & typescript types from your reason code.",
               "created": 1522244775858,
               "modified": 1522244836418,
-              "completed": null,
               "parent": null,
-              "trashed": null,
-              "children": [],
-              "type": "note",
-              "content": "Also, some people are working on a tool that will generate flow & typescript types from your reason code.",
               "plugins": {},
+              "trashed": null,
+              "type": "note",
               "types": {},
-              "views": {},
-              "_rev": null
+              "views": {}
             }
           ],
           "completed": null,
@@ -3825,18 +3993,18 @@
             },
             {
               "_id": null,
+              "_rev": null,
+              "children": [],
+              "completed": null,
+              "content": "!a check out ReasonablyTyped",
               "created": 1522246006916,
               "modified": 1522246014204,
-              "completed": null,
               "parent": null,
-              "trashed": null,
-              "children": [],
-              "type": "normal",
-              "content": "!a check out ReasonablyTyped",
               "plugins": {},
+              "trashed": null,
+              "type": "normal",
               "types": {},
-              "views": {},
-              "_rev": null
+              "views": {}
             },
             {
               "_id": null,
@@ -3919,7 +4087,7 @@
       "completed": null,
       "content": "How do I get started?",
       "created": 1521124956865,
-      "modified": 1521730218929,
+      "modified": 1540829247437,
       "parent": null,
       "plugins": {},
       "trashed": null,
