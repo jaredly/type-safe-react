@@ -1819,11 +1819,15 @@
               "completed": null,
               "content": "{3} Key differences",
               "created": 1521458767267,
-              "modified": 1521556530627,
+              "modified": 1540892512367,
               "parent": null,
-              "plugins": {},
+              "plugins": {
+                "themes": {
+                  "disabled": true
+                }
+              },
               "trashed": null,
-              "type": "header",
+              "type": "normal",
               "types": {},
               "views": {}
             },
@@ -2283,11 +2287,15 @@
               "completed": null,
               "content": "TL;DR",
               "created": 1521594393575,
-              "modified": 1521594400858,
+              "modified": 1540892483233,
               "parent": null,
-              "plugins": {},
+              "plugins": {
+                "themes": {
+                  "disabled": true
+                }
+              },
               "trashed": null,
-              "type": "header",
+              "type": "normal",
               "types": {},
               "views": {}
             }
@@ -3154,6 +3162,68 @@
             },
             {
               "_id": null,
+              "created": 1540896219172,
+              "modified": 1540896276105,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [
+                {
+                  "_id": null,
+                  "created": 1540896224540,
+                  "modified": 1540896378378,
+                  "completed": null,
+                  "parent": null,
+                  "trashed": null,
+                  "children": [],
+                  "type": "normal",
+                  "content": "```\nconst Example = () => {\n  const [count, setCount] = useState(0);\n\n  return <div>\n    <p>You clicked {count} times</p>\n    <button onClick={() => setCount(count + 1)}>\n      Click me\n    </button>\n  </div>\n}\n```",
+                  "plugins": {},
+                  "types": {},
+                  "views": {},
+                  "_rev": null
+                }
+              ],
+              "type": "header",
+              "content": "{3} Hooks!",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            },
+            {
+              "_id": null,
+              "created": 1540896219172,
+              "modified": 1540896277012,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [
+                {
+                  "_id": null,
+                  "created": 1540896244026,
+                  "modified": 1540896398261,
+                  "completed": null,
+                  "parent": null,
+                  "trashed": null,
+                  "children": [],
+                  "type": "normal",
+                  "content": "```\nlet example = (. props: {. \"initialValue\": int}) => {\n  let (count, setCount) = Hooks.useState(props##initialValue);\n\n  <div>\n    <p> {ReasonReact.string(string_of_int(count))} </p>\n    <button onClick={evt => setCount(. count + 1)}>\n      {ReasonReact.string(\"Click me\")}\n    </button>\n  </div>;\n};\n```",
+                  "plugins": {},
+                  "types": {},
+                  "views": {},
+                  "_rev": null
+                }
+              ],
+              "type": "header",
+              "content": "{3} Hooks!",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            },
+            {
+              "_id": null,
               "_rev": null,
               "children": [
                 {
@@ -3225,15 +3295,15 @@
               "completed": null,
               "content": "{3} Render prop",
               "created": 1521161141121,
-              "modified": 1522244507856,
+              "modified": 1540892539211,
               "parent": null,
               "plugins": {
                 "themes": {
-                  "disabled": false
+                  "disabled": true
                 }
               },
               "trashed": null,
-              "type": "header",
+              "type": "normal",
               "types": {},
               "views": {}
             },
@@ -3351,15 +3421,15 @@
               "completed": null,
               "content": "{3} Proxy component",
               "created": 1521464937158,
-              "modified": 1522244568541,
+              "modified": 1540892540367,
               "parent": null,
               "plugins": {
                 "themes": {
-                  "disabled": false
+                  "disabled": true
                 }
               },
               "trashed": null,
-              "type": "header",
+              "type": "normal",
               "types": {},
               "views": {}
             },
@@ -3408,11 +3478,15 @@
               "completed": null,
               "content": "{3} Make illegal states impossible",
               "created": 1521674830381,
-              "modified": 1521674838262,
+              "modified": 1540892542859,
               "parent": null,
-              "plugins": {},
+              "plugins": {
+                "themes": {
+                  "disabled": true
+                }
+              },
               "trashed": null,
-              "type": "header",
+              "type": "normal",
               "types": {},
               "views": {}
             },
@@ -3485,11 +3559,15 @@
               "completed": null,
               "content": "_ {3} Make illegal states impossible",
               "created": 1521161147942,
-              "modified": 1521674839165,
+              "modified": 1540892543992,
               "parent": null,
-              "plugins": {},
+              "plugins": {
+                "themes": {
+                  "disabled": true
+                }
+              },
               "trashed": null,
-              "type": "header",
+              "type": "normal",
               "types": {},
               "views": {}
             },
@@ -3516,22 +3594,7 @@
               "completed": null,
               "content": "_ {3} Make illegal states impossible",
               "created": 1521629383476,
-              "modified": 1521674840821,
-              "parent": null,
-              "plugins": {},
-              "trashed": null,
-              "type": "header",
-              "types": {},
-              "views": {}
-            },
-            {
-              "_id": null,
-              "_rev": null,
-              "children": [],
-              "completed": null,
-              "content": "Subscriptions!",
-              "created": 1521239215184,
-              "modified": 1521558712517,
+              "modified": 1540892544830,
               "parent": null,
               "plugins": {
                 "themes": {
@@ -3539,27 +3602,7 @@
                 }
               },
               "trashed": null,
-              "type": "header",
-              "types": {},
-              "views": {}
-            },
-            {
-              "_id": null,
-              "_rev": null,
-              "children": [],
-              "completed": null,
-              "content": "Routing for free! (maybe mention this?)",
-              "created": 1521234017215,
-              "modified": 1521558724437,
-              "parent": null,
-              "plugins": {
-                "themes": {
-                  "disabled": true,
-                  "highlighted": false
-                }
-              },
-              "trashed": null,
-              "type": "header",
+              "type": "normal",
               "types": {},
               "views": {}
             }
@@ -3567,7 +3610,7 @@
           "completed": null,
           "content": "Some react patterns",
           "created": 1521161109532,
-          "modified": 1522244476137,
+          "modified": 1540896273940,
           "parent": null,
           "plugins": {},
           "trashed": null,
@@ -3940,7 +3983,7 @@
         {
           "_id": null,
           "created": 1540830451185,
-          "modified": 1540886008102,
+          "modified": 1540892577280,
           "completed": null,
           "parent": null,
           "trashed": null,
@@ -4132,9 +4175,13 @@
               "_rev": null
             }
           ],
-          "type": "header",
+          "type": "normal",
           "content": "What about Flow/TS interop?",
-          "plugins": {},
+          "plugins": {
+            "themes": {
+              "disabled": true
+            }
+          },
           "types": {},
           "views": {},
           "_rev": null
@@ -4220,9 +4267,9 @@
           "_rev": null,
           "children": [],
           "completed": null,
-          "content": "!a reason-conf.com May 11-13 Austria",
+          "content": "!a ReactNativeReallyNative?",
           "created": 1521552682658,
-          "modified": 1521552708365,
+          "modified": 1540893149208,
           "parent": null,
           "plugins": {},
           "trashed": null,
@@ -4249,7 +4296,7 @@
       "completed": null,
       "content": "What's next?",
       "created": 1521225528724,
-      "modified": 1521552830818,
+      "modified": 1540893132736,
       "parent": null,
       "plugins": {},
       "trashed": null,
