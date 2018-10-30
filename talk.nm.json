@@ -106,9 +106,9 @@
           "_rev": null,
           "children": [],
           "completed": null,
-          "content": "Khan Academy",
+          "content": "💼 Khan Academy",
           "created": 1521124787163,
-          "modified": 1521125439409,
+          "modified": 1540886648310,
           "parent": null,
           "plugins": {},
           "trashed": null,
@@ -121,9 +121,9 @@
           "_rev": null,
           "children": [],
           "completed": null,
-          "content": "reason.town",
+          "content": "🎙 reason.town",
           "created": 1521554579531,
-          "modified": 1521554581004,
+          "modified": 1540886655895,
           "parent": null,
           "plugins": {},
           "trashed": null,
@@ -840,21 +840,6 @@
         },
         {
           "_id": null,
-          "created": 1540820832412,
-          "modified": 1540823873912,
-          "completed": null,
-          "parent": null,
-          "trashed": null,
-          "children": [],
-          "type": "header",
-          "content": "TODO TODO just point people at the lightning talk from today",
-          "plugins": {},
-          "types": {},
-          "views": {},
-          "_rev": null
-        },
-        {
-          "_id": null,
           "_rev": null,
           "children": [
             {
@@ -932,6 +917,21 @@
               "type": "list",
               "types": {},
               "views": {}
+            },
+            {
+              "_id": null,
+              "created": 1540886059407,
+              "modified": 1540886101634,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [],
+              "type": "note",
+              "content": "But, if you were paying attention to David Kopal's lightning talk yesterday, you already know this :)",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
             },
             {
               "_id": null,
@@ -1028,9 +1028,13 @@
           "completed": null,
           "content": "Reason is the best way to write React",
           "created": 1521469621463,
-          "modified": 1521555668827,
+          "modified": 1540886061015,
           "parent": null,
-          "plugins": {},
+          "plugins": {
+            "themes": {
+              "disabled": false
+            }
+          },
           "trashed": null,
           "type": "header",
           "types": {},
@@ -2316,9 +2320,9 @@
                   "_rev": null,
                   "children": [],
                   "completed": null,
-                  "content": "Community is still small",
+                  "content": "!a Community is still small",
                   "created": 1521459295986,
-                  "modified": 1521462892206,
+                  "modified": 1540886124079,
                   "parent": null,
                   "plugins": {},
                   "trashed": null,
@@ -2331,9 +2335,9 @@
                   "_rev": null,
                   "children": [],
                   "completed": null,
-                  "content": "Fewer tutorials / docs / etc.",
+                  "content": "!a Fewer tutorials / docs / etc.",
                   "created": 1521462893686,
-                  "modified": 1521462922864,
+                  "modified": 1540886126739,
                   "parent": null,
                   "plugins": {},
                   "trashed": null,
@@ -2346,9 +2350,9 @@
                   "_rev": null,
                   "children": [],
                   "completed": null,
-                  "content": "Change is hard",
+                  "content": "!a Change is hard",
                   "created": 1522246763916,
-                  "modified": 1522246768179,
+                  "modified": 1540886128284,
                   "parent": null,
                   "plugins": {},
                   "trashed": null,
@@ -2416,9 +2420,9 @@
             }
           ],
           "completed": null,
-          "content": "Why not reason?",
+          "content": "Why not Reason?",
           "created": 1521161018528,
-          "modified": 1522246759860,
+          "modified": 1540886134065,
           "parent": null,
           "plugins": {
             "themes": {
@@ -2434,7 +2438,7 @@
       "completed": null,
       "content": "Why Reason?",
       "created": 1521124936249,
-      "modified": 1540820832413,
+      "modified": 1540886057348,
       "parent": null,
       "plugins": {},
       "trashed": null,
@@ -3644,13 +3648,13 @@
             {
               "_id": null,
               "created": 1540829155679,
-              "modified": 1540829247437,
+              "modified": 1540830074525,
               "completed": null,
               "parent": null,
               "trashed": null,
               "children": [],
               "type": "normal",
-              "content": "{img} sketchsh.png",
+              "content": "{img} sketchsh.png {\"box-shadow\": \"0 0 5px #000\"}",
               "plugins": {},
               "types": {},
               "views": {},
@@ -3690,13 +3694,13 @@
             {
               "_id": null,
               "created": 1540829163282,
-              "modified": 1540829246794,
+              "modified": 1540830097772,
               "completed": null,
               "parent": null,
               "trashed": null,
               "children": [],
               "type": "normal",
-              "content": "{img} replit.png",
+              "content": "{img} replit.png {\"box-shadow\": \"0 0 5px #000\"}",
               "plugins": {},
               "types": {},
               "views": {},
@@ -3736,13 +3740,13 @@
             {
               "_id": null,
               "created": 1540829167477,
-              "modified": 1540829172264,
+              "modified": 1540830099228,
               "completed": null,
               "parent": null,
               "trashed": null,
               "children": [],
               "type": "normal",
-              "content": "{img} codesandboxio.png",
+              "content": "{img} codesandboxio.png {\"box-shadow\": \"0 0 5px #000\"}",
               "plugins": {},
               "types": {},
               "views": {},
@@ -3758,14 +3762,64 @@
         },
         {
           "_id": null,
+          "_rev": null,
+          "children": [
+            {
+              "_id": null,
+              "_rev": null,
+              "children": [],
+              "completed": null,
+              "content": "```\n$ npx create-react-app my-app --scripts-version reason-scripts\n```",
+              "created": 1521167951221,
+              "modified": 1540830323937,
+              "parent": null,
+              "plugins": {},
+              "trashed": null,
+              "type": "normal",
+              "types": {},
+              "views": {}
+            },
+            {
+              "_id": null,
+              "created": 1540830336605,
+              "modified": 1540830343926,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [],
+              "type": "normal",
+              "content": "🎉 and that's it",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            }
+          ],
+          "completed": null,
+          "content": "{4} Reason: if you like create-react-app",
+          "created": 1521165429474,
+          "modified": 1540830336605,
+          "parent": null,
+          "plugins": {
+            "themes": {
+              "disabled": false
+            }
+          },
+          "trashed": null,
+          "type": "header",
+          "types": {},
+          "views": {}
+        },
+        {
+          "_id": null,
           "created": 1540828714271,
-          "modified": 1540828790884,
+          "modified": 1540830423044,
           "completed": null,
           "parent": null,
           "trashed": null,
           "children": [],
           "type": "header",
-          "content": "{2} Reason: on your very own computer",
+          "content": "{2} Adding it to your existing project",
           "plugins": {},
           "types": {},
           "views": {},
@@ -3780,59 +3834,9 @@
               "_rev": null,
               "children": [],
               "completed": null,
-              "content": "```\n$ find .\nsrc/main.js\nsrc/fancy-button.js\nsrc/home-screen.js\n.babelrc\npackage.json\nwebpack.config.js\n```",
-              "created": 1521167776484,
-              "modified": 1521167894371,
-              "parent": null,
-              "plugins": {},
-              "trashed": null,
-              "type": "normal",
-              "types": {},
-              "views": {}
-            },
-            {
-              "_id": null,
-              "_rev": null,
-              "children": [],
-              "completed": null,
-              "content": "So here's our setup, much simplified -- we have a webpack config, some existing javascript source files that have react components.",
-              "created": 1521167814422,
-              "modified": 1521167856557,
-              "parent": null,
-              "plugins": {},
-              "trashed": null,
-              "type": "note",
-              "types": {},
-              "views": {}
-            }
-          ],
-          "completed": null,
-          "content": "_",
-          "created": 1521167775267,
-          "modified": 1521642441687,
-          "parent": null,
-          "plugins": {
-            "themes": {
-              "disabled": true
-            }
-          },
-          "trashed": null,
-          "type": "normal",
-          "types": {},
-          "views": {}
-        },
-        {
-          "_id": null,
-          "_rev": null,
-          "children": [
-            {
-              "_id": null,
-              "_rev": null,
-              "children": [],
-              "completed": null,
-              "content": "```\n$ npm i --save-dev bs-platform\n$ cat > bsconfig.json\n{\n  \"name\": \"myapp\",\n  \"refmt\": 3,\n  \"sources\": [\"src\"],\n  \"package-specs\": [\n    {\"module\": \"commonjs\", \"in-source\": true}\n  ]\n}\n$ ./node_modules/.bin/bsb -make-world\n# now all your .re files are compiled to .js files\n```",
+              "content": "```\n$ $1npm i --save-dev bs-platform$\n$ cat > bsconfig.json\n$2{\n  \"name\": \"myapp\",\n  \"refmt\": 3,\n  \"sources\": [\"src\"],\n  \"package-specs\": [\n    {\"module\": \"commonjs\", \"in-source\": true}\n  ]\n}$\n$ $3./node_modules/.bin/bsb -make-world$\n# now all your .re files are compiled to .js files\n```",
               "created": 1521165274538,
-              "modified": 1521729262828,
+              "modified": 1540830170204,
               "parent": null,
               "plugins": {},
               "trashed": null,
@@ -3853,76 +3857,6 @@
           },
           "trashed": null,
           "type": "header",
-          "types": {},
-          "views": {}
-        },
-        {
-          "_id": null,
-          "_rev": null,
-          "children": [
-            {
-              "_id": null,
-              "_rev": null,
-              "children": [],
-              "completed": null,
-              "content": "```\n$ cat 'Js.log(\"hello from reason land\")' > src/HelloReason.re\n$ ./node_modules/.bin/bsb -make-world\n$ cat src/HelloReason.bs.js\n'use strict';\nconsole.log(\"hello from reason land\");\n```",
-              "created": 1521504131634,
-              "modified": 1521558763824,
-              "parent": null,
-              "plugins": {},
-              "trashed": null,
-              "type": "normal",
-              "types": {},
-              "views": {}
-            }
-          ],
-          "completed": null,
-          "content": "_",
-          "created": 1521504130649,
-          "modified": 1521642445863,
-          "parent": null,
-          "plugins": {
-            "themes": {
-              "disabled": true
-            }
-          },
-          "trashed": null,
-          "type": "normal",
-          "types": {},
-          "views": {}
-        },
-        {
-          "_id": null,
-          "_rev": null,
-          "children": [
-            {
-              "_id": null,
-              "_rev": null,
-              "children": [],
-              "completed": null,
-              "content": "```\n$ find src\nsrc/OneFile.re\nsrc/OneFile.bs.js\nsrc/main.js\nsrc/fancy-button.js\nsrc/home-screen.js\n```",
-              "created": 1521165456296,
-              "modified": 1521167915610,
-              "parent": null,
-              "plugins": {},
-              "trashed": null,
-              "type": "normal",
-              "types": {},
-              "views": {}
-            }
-          ],
-          "completed": null,
-          "content": "_",
-          "created": 1521165446658,
-          "modified": 1521558922678,
-          "parent": null,
-          "plugins": {
-            "themes": {
-              "disabled": true
-            }
-          },
-          "trashed": null,
-          "type": "normal",
           "types": {},
           "views": {}
         },
@@ -3990,42 +3924,12 @@
               "type": "normal",
               "types": {},
               "views": {}
-            },
-            {
-              "_id": null,
-              "_rev": null,
-              "children": [],
-              "completed": null,
-              "content": "!a check out ReasonablyTyped",
-              "created": 1522246006916,
-              "modified": 1522246014204,
-              "parent": null,
-              "plugins": {},
-              "trashed": null,
-              "type": "normal",
-              "types": {},
-              "views": {}
-            },
-            {
-              "_id": null,
-              "_rev": null,
-              "children": [],
-              "completed": null,
-              "content": "Mention ReasonablyTyped, which takes a flow or typescript definition and creates reason externals declarations for it.",
-              "created": 1521664204739,
-              "modified": 1521664235090,
-              "parent": null,
-              "plugins": {},
-              "trashed": null,
-              "type": "note",
-              "types": {},
-              "views": {}
             }
           ],
           "completed": null,
           "content": "{3} Use JS from Reason",
           "created": 1521167868451,
-          "modified": 1522246006916,
+          "modified": 1540831464585,
           "parent": null,
           "plugins": {},
           "trashed": null,
@@ -4035,59 +3939,211 @@
         },
         {
           "_id": null,
-          "_rev": null,
+          "created": 1540830451185,
+          "modified": 1540886008102,
+          "completed": null,
+          "parent": null,
+          "trashed": null,
           "children": [
             {
               "_id": null,
-              "_rev": null,
-              "children": [],
+              "created": 1540830480203,
+              "modified": 1540885709404,
               "completed": null,
-              "content": "You can use create-react-app! which is a quick way to get started.",
-              "created": 1521167951221,
-              "modified": 1521167981067,
               "parent": null,
-              "plugins": {},
               "trashed": null,
-              "type": "normal",
+              "children": [
+                {
+                  "_id": null,
+                  "created": 1540830492048,
+                  "modified": 1540830521759,
+                  "completed": null,
+                  "parent": null,
+                  "trashed": null,
+                  "children": [],
+                  "type": "note",
+                  "content": "it would be a real shame if, by integrating reason into your typescript app, you actually *lost* some type safety because of the boundary.",
+                  "plugins": {},
+                  "types": {},
+                  "views": {},
+                  "_rev": null
+                }
+              ],
+              "type": "header",
+              "content": "{2} What about Flow/TS interop?",
+              "plugins": {},
               "types": {},
-              "views": {}
+              "views": {},
+              "_rev": null
             },
             {
               "_id": null,
-              "_rev": null,
-              "children": [],
+              "created": 1540830541846,
+              "modified": 1540831613809,
               "completed": null,
-              "content": "github:reasonml-community/reason-scripts",
-              "created": 1521167728219,
-              "modified": 1521675343036,
               "parent": null,
-              "plugins": {},
               "trashed": null,
-              "type": "normal",
+              "children": [
+                {
+                  "_id": null,
+                  "created": 1540830537901,
+                  "modified": 1540885618474,
+                  "completed": null,
+                  "parent": null,
+                  "trashed": null,
+                  "children": [],
+                  "type": "normal",
+                  "content": "```\n$1/* MyComponent.re */$\nmodule MyComponent = {\n  let make = ...\n};\nlet default = ReasonReact.wrapReasonForJs(\n  ~component=MyComponent.component,\n  (jsProps) => MyComponent.make(\n    ~name=$3jsProps##😨misSpelledName😨$,\n    ~age=jsProps##age,\n    [||]\n  )\n);\n\n$2/* OtherFile.tsx */$\nimport MyComponent from \"./MyComponent.js\";\nvar x = <MyComponent name=\"hi\" $4age={😨\"wrong typed argument\"😨}$ />\n```",
+                  "plugins": {},
+                  "types": {},
+                  "views": {},
+                  "_rev": null
+                }
+              ],
+              "type": "header",
+              "content": "_",
+              "plugins": {},
               "types": {},
-              "views": {}
+              "views": {},
+              "_rev": null
+            },
+            {
+              "_id": null,
+              "created": 1540832821098,
+              "modified": 1540832992107,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [
+                {
+                  "_id": null,
+                  "created": 1540832822260,
+                  "modified": 1540833074664,
+                  "completed": null,
+                  "parent": null,
+                  "trashed": null,
+                  "children": [],
+                  "type": "normal",
+                  "content": "```\n/** MyBanner.tsx **/\nimport * as React from \"react\";\nexport interface Props {\n  name: string;\n  age: int;\n}\nclass App extends React.PureComponent<Props> {\n  public render() { ... }\n}\nexport default App;\n\n/** MyBannerWrapper.re **/\n[@bs.module]\n$1external$ myJSReactClass : ReasonReact.reactClass = $1\"./MyBanner.tsx\"$;\nlet make = (~name: string, ~age: 😨string😨, children) =>\n  ReasonReact.wrapJsForReason(\n    ~reactClass=myJSReactClass,\n    ~props={😨\"ohNoWrongName\"😨: name, \"age\": age},\n    children\n  );\n```",
+                  "plugins": {},
+                  "types": {},
+                  "views": {},
+                  "_rev": null
+                }
+              ],
+              "type": "header",
+              "content": "_",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            },
+            {
+              "_id": null,
+              "created": 1540885727789,
+              "modified": 1540885736929,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [
+                {
+                  "_id": null,
+                  "created": 1540885736918,
+                  "modified": 1540885787574,
+                  "completed": null,
+                  "parent": null,
+                  "trashed": null,
+                  "children": [],
+                  "type": "normal",
+                  "content": "generate type-safe bindings to TypeScript and Flow from Reason code",
+                  "plugins": {},
+                  "types": {},
+                  "views": {},
+                  "_rev": null
+                }
+              ],
+              "type": "header",
+              "content": "{2} genType",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            },
+            {
+              "_id": null,
+              "created": 1540830541846,
+              "modified": 1540830545003,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [
+                {
+                  "_id": null,
+                  "created": 1540830537901,
+                  "modified": 1540885578919,
+                  "completed": null,
+                  "parent": null,
+                  "trashed": null,
+                  "children": [],
+                  "type": "normal",
+                  "content": "```\n/* MyComponent.re */\n$1[@genType]$\nlet make = (~name: string, ~age: int, children) => ...\n/* no manual wrapping! */\n\n$2/* MyComponent.tsx */ (auto-generated!)$\nconst MyComponentBS = require('./MyComponent.bs.js');\nexport type Props = $3{\n  readonly name: string, \n  readonly age: number,\n};$\n\nexport const MyComponent: React.ComponentClass<Props>\n= ReasonReact.wrapReasonForJs(\n  MyComponentBS.component,\n  function _(jsProps: Props) {\n    return ReasonComponentBS.make(\n      $4jsProps.name, jsProps.age$, jsProps.children);\n  }\n);\nexport default MyComponent;\n```",
+                  "plugins": {},
+                  "types": {},
+                  "views": {},
+                  "_rev": null
+                }
+              ],
+              "type": "header",
+              "content": "_",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
+            },
+            {
+              "_id": null,
+              "created": 1540832821098,
+              "modified": 1540832822271,
+              "completed": null,
+              "parent": null,
+              "trashed": null,
+              "children": [
+                {
+                  "_id": null,
+                  "created": 1540832822260,
+                  "modified": 1540885326427,
+                  "completed": null,
+                  "parent": null,
+                  "trashed": null,
+                  "children": [],
+                  "type": "normal",
+                  "content": "```\n/** MyBanner.tsx **/\nimport * as React from \"react\";\nexport interface Props $1{\n  name: string;\n  age: int;\n}$\nclass App extends React.PureComponent<Props> {\n  public render() { ... }\n}\nexport default App;\n\n/** MyBannerWrapper.re **/\n[@genType.import \"./MyBanner\"]\n[@bs.module \"./MyBannerWrapper\"]\nexternal make: ($2~name: string, ~age: int$, 'a) =>\n                   ReasonReact.stateless = \"\";\n```",
+                  "plugins": {},
+                  "types": {},
+                  "views": {},
+                  "_rev": null
+                }
+              ],
+              "type": "header",
+              "content": "_",
+              "plugins": {},
+              "types": {},
+              "views": {},
+              "_rev": null
             }
           ],
-          "completed": null,
-          "content": "If you're starting fresh",
-          "created": 1521165429474,
-          "modified": 1521738040314,
-          "parent": null,
-          "plugins": {
-            "themes": {
-              "disabled": true
-            }
-          },
-          "trashed": null,
-          "type": "normal",
+          "type": "header",
+          "content": "What about Flow/TS interop?",
+          "plugins": {},
           "types": {},
-          "views": {}
+          "views": {},
+          "_rev": null
         }
       ],
       "completed": null,
       "content": "How do I get started?",
       "created": 1521124956865,
-      "modified": 1540829247437,
+      "modified": 1540886008102,
       "parent": null,
       "plugins": {},
       "trashed": null,
@@ -4326,7 +4382,7 @@
   "completed": null,
   "content": "Slides",
   "created": 1521124723785,
-  "modified": 1521555284199,
+  "modified": 1540886008102,
   "parent": null,
   "plugins": {},
   "trashed": null,
